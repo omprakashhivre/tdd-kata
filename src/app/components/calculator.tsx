@@ -71,15 +71,6 @@ export default function StringCalculator() {
         { input: '"1,-2"', output: "Error", desc: "Negative numbers" },
     ]
 
-    // const tips = [
-    //     "Start with empty string",
-    //     "Handle single numbers",
-    //     "Support multiple numbers",
-    //     "Add newline delimiters",
-    //     "Custom delimiter support",
-    //     "Validate negative numbers",
-    // ]
-
     return (
         <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 p-6">
             <div className="mx-auto max-w-7xl">
@@ -218,7 +209,7 @@ export default function StringCalculator() {
                                     <div className="flex justify-between items-center">
                                         <span className="font-medium">Custom Format:</span>
                                         <Badge variant="outline" className="text-xs">
-                      //[del]\n[nums]
+                      {"//[del]\\n[nums]"}
                                         </Badge>
                                     </div>
                                     <Separator className="my-1" />
