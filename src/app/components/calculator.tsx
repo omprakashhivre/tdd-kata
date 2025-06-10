@@ -7,7 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
-import { Calculator, Info, AlertTriangle, CheckCircle, Code, Lightbulb, BookOpen } from "lucide-react"
+import { Calculator, Info, AlertTriangle, CheckCircle, Code, BookOpen } from "lucide-react"
 
 export default function StringCalculator() {
     const [input, setInput] = useState("")
@@ -71,14 +71,14 @@ export default function StringCalculator() {
         { input: '"1,-2"', output: "Error", desc: "Negative numbers" },
     ]
 
-    const tips = [
-        "Start with empty string",
-        "Handle single numbers",
-        "Support multiple numbers",
-        "Add newline delimiters",
-        "Custom delimiter support",
-        "Validate negative numbers",
-    ]
+    // const tips = [
+    //     "Start with empty string",
+    //     "Handle single numbers",
+    //     "Support multiple numbers",
+    //     "Add newline delimiters",
+    //     "Custom delimiter support",
+    //     "Validate negative numbers",
+    // ]
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 p-6">
