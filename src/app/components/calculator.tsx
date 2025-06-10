@@ -240,16 +240,16 @@ export default function StringCalculator() {
                             <CardContent className="p-3">
                                 <div className="space-y-1 text-xs text-slate-600">
                                     <div>
-                                        <strong>Basic:</strong> "1,2,3" → 6
+                                        <strong>Basic:</strong> &quot;1,2,3&quot; → 6
                                     </div>
                                     <div>
-                                        <strong>Mixed:</strong> "1\n2,3" → 6
+                                        <strong>Mixed:</strong> &quot;1\n2,3&quot; → 6
                                     </div>
                                     <div>
-                                        <strong>Custom:</strong> "//;\n1;2" → 3
+                                        <strong>Custom:</strong> &quot;//;\n1;2&quot; → 3
                                     </div>
                                     <div>
-                                        <strong>Error:</strong> "1,-2" → Exception
+                                        <strong>Error:</strong> &quot;1,-2&quot; → Exception
                                     </div>
                                 </div>
                             </CardContent>
